@@ -8,11 +8,10 @@ void board(vector<char> p) {
     cout << endl;
     for (int j = 0; j < p.size(); ++j) {
             cout << p[j] << "  ";
-            if (j == 2 or j == 5 or j == 8) {
+            if (j == 2 || j == 5 || j == 8) {
                 cout << endl;
             }
         }
-        cout << endl;
 }
 
 bool winner(vector <char> game, char x, char o) {
